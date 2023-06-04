@@ -1,0 +1,8 @@
+table,th,td{
+    border: 3px solid gold;
+    color: bisque;
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+
+}
