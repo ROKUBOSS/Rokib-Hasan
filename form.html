@@ -11,35 +11,35 @@ padding: 0%;
 box-sizing: border-box;
 }
 table,th,td{
-    border: 3px double gold;
-    background-color: black;
-    color: aquamarine;
-    padding: 5px;
-    width: 100%;
-    table-layout: fixed;
-    
+border: 3px double gold;
+background-color: black;
+color: aquamarine;
+padding: 5px;
+width: 100%;
+table-layout: fixed;
+
 
 }
 .links{
-    list-style: none;
+list-style: none;
 }
 .links,.tag,.radio,.mogo{
-    border: 3px double black;
-    margin: 10px 0px;
-    padding: 10px;
-  }
+border: 3px double black;
+margin: 10px 0px;
+padding: 10px;
+}
 
 @media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .links, .tag, .radio {
-    width: 100%;
-  }
+/* For mobile phones: */
+.links, .tag, .radio {
+width: 100%;
+}
 }
 </style>
 </head>
 <body>
-    
-    
+
+
 <div class="links">
 <h1>Some Important Links</h1>
 <li><a href="https://www.w3schools.com/tags/tag_form.asp" target="_blank">W3-School (form)</a></li>
@@ -50,54 +50,54 @@ table,th,td{
 <div class="tag">
 <h1>Tag(s) & Attribute(s)</h1>
 <table>
-    <tr>
-        <th>Tags</th>
-        <th>Attributes</th>
-    </tr>
-    <tr>
-        <td>Form</td>
-        <td>Type</td>
-    </tr>
-    <tr>
-        <td>Input</td>
-        <td>Value</td>
-    </tr>
-    <tr>
-        <td>Textarea</td>
-        <td>Name</td>
-    </tr>
-    <tr>
-        <td>Fieldset</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>Label</td>
-        <td>For</td>
-    </tr>
-    <tr>
-        <td>Select</td>
-        <td>Min (Minimum)</td>
-    </tr>
-    <tr>
-        <td>Button</td>
-        <td>Max (Maximum)</td>
-    </tr>
-    <tr>
-        <td>Output</td>
-        <td>Form</td>
-    </tr>
-    <tr>
-        <td>Option</td>
-        <td>Placeholder</td>
-    </tr>
-    <tr>
-        <td>Optgroup</td>
-        <td>Disabled</td>
-    </tr>
-    <tr>
-        <td>Legend</td>
-        <td>?</td>
-    </tr>
+<tr>
+<th>Tags</th>
+<th>Attributes</th>
+</tr>
+<tr>
+<td>Form</td>
+<td>Type</td>
+</tr>
+<tr>
+<td>Input</td>
+<td>Value</td>
+</tr>
+<tr>
+<td>Textarea</td>
+<td>Name</td>
+</tr>
+<tr>
+<td>Fieldset</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>Label</td>
+<td>For</td>
+</tr>
+<tr>
+<td>Select</td>
+<td>Min (Minimum)</td>
+</tr>
+<tr>
+<td>Button</td>
+<td>Max (Maximum)</td>
+</tr>
+<tr>
+<td>Output</td>
+<td>Form</td>
+</tr>
+<tr>
+<td>Option</td>
+<td>Placeholder</td>
+</tr>
+<tr>
+<td>Optgroup</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Legend</td>
+<td>?</td>
+</tr>
 </table>
 
 
@@ -121,40 +121,43 @@ Female:<input type="radio" name="gender2" id="">
 Others:<input type="radio" name="gender3" id=""> 
 </div>
 <div class="form" style="background-color: whitesmoke;">
-    <form action="/action_page.php">
-        <fieldset>
-        <legend>Personal-Information:</legend>
-        Name :<input type="text" placeholder="Type Your Name"> <br>
-        Email :<input type="email"> <br>
-        Password :<input type="password"><br>
-        Date :<input type="date"> <br>
-        Phone No :<input type="tel"><br>
-        Choose File :<input type="file"> <br>
-        Radio :<input type="radio"><br>
-        Checkbox :<input type="checkbox">English <br>
-        <input type="reset"><br>
-        <input type="submit"><br><br> <hr>
-        Search :<input type="search"><br>
-        <input type="button" value="Click Me"><br>
-        Number :<input type="number" min="0" max="19"><br>
-        Time :<input type="time"><br>
-        Date Time Local :<input type="datetime-local"> <br>
-        Week :<input type="week"><br>
-        Month :<input type="month"><br>
-        URL :<input type="url" name="url" value="https://www."><br>
-        Color Pick :<input type="color"> <br>
-        Range :<input type="range"><br>
-        <input type="image" src="favicon.jpeg" height="50px" width="50px" style="border-radius: 25px;"><br>
-        <input type="hidden"> <br>
-        <textarea name="" id="" cols="30" rows="10" style="padding: 20px;"></textarea>
-        
-        </fieldset>
-        </form>
+<pre style="font-size: 18px; padding: 10px;">
+<form action="/action_page.php">
+<fieldset style="padding: 10px;">
+<legend>Personal-Information:</legend>
+Name            : <input type="text" placeholder="Type Your Name"> <br>
+Email           : <input type="email"> <br>
+Password        : <input type="password"><br>
+Date            : <input type="date"> <br>
+Phone No        : <input type="tel"><br>
+Choose File     : <input type="file"> <br>
+Radio (Gender)  : <input type="radio" name="gender">Male <input type="radio" name="gender">Female<br>
+Checkbox        : <input type="checkbox">Bangla <input type="checkbox">English <input type="checkbox">ICT <br>
+                  <input type="reset">  <input type="submit"><br><br> <hr>
+                  
+Search          : <input type="search"><br>
+                  <input type="button" value="Click Me"><br>
+Number          : <input type="number" min="0" max="19"><br>
+Time            : <input type="time"><br>
+Date Time Local : <input type="datetime-local"> <br>
+Week            : <input type="week"><br>
+Month           : <input type="month"><br>
+URL             :  <input type="url" name="url" value="https://www."><br>
+Color Pick      :  <input type="color"> <br>
+Range           :  <input type="range"><br>
+                  <input type="image" src="favicon.jpeg" height="50px" width="50px" style="border-radius: 25px;"><br>
+                  <input type="hidden"> <br>
+                  <label for="com">Comments</label>
+                  <textarea name="" id="" cols="30" rows="10" style="padding: 20px;"></textarea>
+
+</fieldset>
+</form>
+</pre>
 </div>
 <div class="mogo">
-    <h5>Type (Atrribute) </h5>
+<h5>Type (Atrribute) </h5>
 <p>
-    <pre style="text-transform: uppercase;">
+<pre style="text-transform: uppercase;">
 button
 checkbox
 color
@@ -177,7 +180,7 @@ text
 time
 url
 week
-    </pre>
+</pre>
 </p>
 </div>
 
