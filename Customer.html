@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer</title>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: 5px double orange;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  list-style: none;
+}
+.content ol li {
+    list-style: none;
+    line-height: 30px;
+    font-size: large;
+  
+  
+}
+</style>
+</head>
+<body>
+
+
+
+
+<button type="button" class="collapsible">Account</button>
+<div class="content">
+<ol>
+    <li>Sim Card</li>
+    <li>NID</li>
+    <li>Passport</li>
+    <li>Birt-Certificate</li>
+    <li>Driving-License</li>
+    <li>SSC / HSC / HONOR'S / Masters / PhD & Professional</li><br><br><br>
+    <li>Google (G-mail / YouTube / PlayStore / Etc...)</li>
+    <li>Meta (FaceBook / Messenger / Instragram / What's App / Etc...)</li>
+    <li>Microsoft</li>
+    <li>WebSite</li>
+    <li>App</li>
+</ol>
+</div>
+<button type="button" class="collapsible">Devices</button>
+<div class="content">
+  <ol>
+    <li>MicroPhone</li>
+    <li>Tripod</li>
+    <li>Light(s)</li>
+    <li>Backdrop</li>
+    <li>Camera</li>
+    <li>Pen-Tablet</li>
+    <li>WebCame</li>
+    <li>Laptop / Desktop</li>
+    <li>Router</li>
+    <li>MultiPlug</li>
+    <li>UPS</li>
+    <li>Flash Drive</li>
+  </ol>
+</div>
+<button type="button" class="collapsible">App & Software</button>
+<div class="content">
+  <ol>
+    <h5>App</h5>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <h5>Software</h5>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+  </ol>
+</div>
+<button type="button" class="collapsible">People</button>
+<div class="content">
+  <ol>
+    <li>Teacher (All)</li>
+    <li>Businessman (Online / Offline)</li>
+    <li>Speaker (বক্তা)</li>
+    <!-- <li></li>
+    <li></li>
+    <li></li>
+    <li></li> -->
+  </ol>
+</div>
+<!-- <button type="button" class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> -->
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
