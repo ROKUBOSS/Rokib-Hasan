@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Map</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: yellowgreen;
+        }
+        marquee{
+            font-size: larger;
+            font-family: cursive;
+        }
+        iframe{
+        border: 2px solid darkblue;
+        border-radius: 10px;
+        }
+        @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #map {
+    width: 100%;
+  }
+}
+    </style>
 </head>
 <body>
+    <marquee behavior="" direction="">This is Google-Map</marquee>
    <center>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.0775732051156!2d90.41335792278872!3d23.74212610147909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b866b9e01237%3A0xff65f3923b018447!2z4Kas4Ka-4KaC4Kay4Ka-4Kam4KeH4Ka2IOCmrOCnjeCmr-CmvuCmguCmlSDgppXgp4st4KaF4Kaq4Ka-4Kaw4KeH4Kaf4Ka_4KatIOCmsOCnh-CmuOCmv-CmoeCnh-CmqOCnjeCmuOCmv-Cmr-CmvOCmvuCmsiDgppXgpq7gpqrgp43gprLgp4fgppXgp43gprg!5e0!3m2!1sbn!2sbd!4v1689204442586!5m2!1sbn!2sbd" width="540" height="422" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.0775732051156!2d90.41335792278872!3d23.74212610147909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b866b9e01237%3A0xff65f3923b018447!2z4Kas4Ka-4KaC4Kay4Ka-4Kam4KeH4Ka2IOCmrOCnjeCmr-CmvuCmguCmlSDgppXgp4st4KaF4Kaq4Ka-4Kaw4KeH4Kaf4Ka_4KatIOCmsOCnh-CmuOCmv-CmoeCnh-CmqOCnjeCmuOCmv-Cmr-CmvOCmvuCmsiDgppXgpq7gpqrgp43gprLgp4fgppXgp43gprg!5e0!3m2!1sbn!2sbd!4v1689204442586!5m2!1sbn!2sbd" width="540" height="422" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </center>
 </body>
 </html>
