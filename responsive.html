@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Form</title>
+<style>
+    body{
+background-image: linear-gradient(whitesmoke, gold);
+    }
+img{
+height: 200px;
+width: 200px;
+border-radius: 100px;
+cursor: grab;
+background-color: bisque;
+
+}
+input{background-color: wheat;
+padding: 5px;
+color: brown;
+border-radius: 10px;
+}
+marquee{
+ color: chartreuse;
+ font-size: 30px;
+ font-family: cursive;
+ cursor: pointer
+
+}
+.form{
+font-size: 20px;
+background-image: linear-gradient(brown, yellow);
+color: whitesmoke;
+}
+.list{
+font-size: 20px;
+background-image: linear-gradient(whitesmoke, gold);
+
+
+}
+.table table,th,td{
+border: 3px solid;
+text-align: center;
+padding: 5px;
+border-collapse: collapse;
+
+
+}
+.table td{
+    vertical-align: middle;
+height: 50px;}
+.table table{
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(whitesmoke, brown);
+}
+
+img:hover{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    border: 2px solid;
+    transition: all 2s linear;
+    transform: rotate(360deg);
+}
+legend:hover{
+font-size: 40px;
+background-color: darkblue;
+color: gold;
+transition: all 3s ease-in;
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .form {
+    font-size: 15px;
+    width: 100%;
+  }
+  img:hover{height: 200px; width: 300px; border-radius: 200px;
+}
+input{
+width: 40%;
+}
+.table table{
+padding: 15px;
+max-width: fit-content;
+}
+legend:hover{font-size: 25px;
+background-color: darkblue;
+color: gold;
+transition: all 3s ease-in;}
+
+}
+
+</style>
+</head>
+<body>
+<marquee behavior="alternate" direction="">Hello World!!!</marquee>
+<p><img src="https://cdn.vox-cdn.com/thumbor/yIoKynT0Jl-zE7yWwzmW2fy04xc=/0x0:706x644/1400x1400/filters:focal(353x322:354x323)/cdn.vox-cdn.com/uploads/chorus_asset/file/13874040/stevejobs.1419962539.png" alt=""></p>
+
+<iframe src="https://giphy.com/embed/l0HlNaQ6gWfllcjDO" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-80s-illustration-l0HlNaQ6gWfllcjDO">via GIPHY</a></p>
+<p style="color: beige;">My Form</p>
+
+ 
+<div class="form">
+<pre>
+<form action="">
+<fieldset>
+<legend>My Personal-Information</legend>
+
+
+Name               : <input type="text"  placeholder="Write Your Name">
+
+Address            : <input type="text">
+
+Permanenet Address : <input type="text">
+
+Email              : <input type="email" name="" id="">
+
+Phone no.          : <input type="tel" name="" id="">
+
+Nationality        : <input type="text">
+
+Age                : <input type="number" name="" id="" min="18" max="30">
+
+Father's name      : <input type="text">
+
+Mother's name      : <input type="text">
+
+Hobies             : 👇🏿
+
+<input type="checkbox" name="" id=""> Travelling
+
+<input type="checkbox" name="" id=""> Writing
+
+<input type="checkbox" name="" id=""> Listning 
+
+<input type="checkbox" name="" id=""> Drawing
+
+Choose file        : <input type="file" name="" id="">
+
+Gender             : 
+
+<input type="radio" name="gender" id=""> Male 
+<input type="radio" name="gender" id=""> Female
+
+Reset    : <input type="reset" value="Reset">          
+
+Submit   : <input type="submit" value="Submit">
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+
+</fieldset>
+
+</form>
+
+</pre>
+
+</div>
+
+<div class="list">
+<h5>This is list items</h5>
+<ol>
+<li>Bangla</li>
+<li>English</li>
+<li>ICT</li>
+</ol>
+<ul>
+<li>Bangla</li>
+<li>English</li>
+<li>ICT</li>
+</ul>
+</div>
+<div class="table">
+   <center>
+    <table>
+        <caption>My first table</caption> <br><br><br>
+        <tr>
+            <th>Bangla</th>
+            <th>English</th>
+            <th>Math</th>
+        </tr>
+        <tr>
+            <td>98</td>
+            <td>89</td>
+            <td>79</td>
+            
+        </tr>
+
+    </table>
+   </center>
+</div>
+
+
+
+
+
+</body>
+</html>
