@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic-Needs</title>
+<link rel="shortcut icon" href="basic.webp" type="image/x-icon">
+
+<style>
+body{
+background-image:url(bgtwo.jpg) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-transform: capitalize;
+
+}
+.collapsible {
+background-color: brown;
+color: white;
+cursor: pointer;
+margin: 1px;
+padding: 18px;
+width: 100%;
+border: 1px solid gold;
+text-align: left;
+outline: none;
+font-size: 15px;
+}
+
+.active, .collapsible:hover {
+background-color: orange;
+}
+
+.collapsible:after {
+content: '\002B';
+color: white;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.content {
+padding: 0 18px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+background-color: #f1f1f1;
+}
+h1{
+color: brown;
+border-bottom: 3px groove darkblue;
+}
+h3{
+border: 2px solid orange;
+padding: 10px;
+border-radius: 10px;
+
+
+
+}
+.hide{
+display: none;
+}
+h3:hover .hide{
+display: block;
+padding-top: 5px;
+}
+table,th,td{
+border: 1px solid darkblue;
+padding: 10px;
+border-collapse: collapse;
+}
+
+
+</style>
+</head>
+<body>
+
+<center><h1>Basic-Needs</h1></center>
+
+
+<button class="collapsible">Food</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Dress</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Home</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Treatment</button>
+<div class="content">
+<h3>Homeo Treatment</h3>
+<input type="radio" name="option" id="">বরকত হোমিও <br><br>
+<input type="radio" name="option" id="">ড.হাসান হোমিও <br><br>
+<input type="radio" name="option" id="">Zosna Homeo (January - June) <br><br>
+<h3>Treatment</h3>
+<input type="radio" name="option" id="">Allergy<br><br>
+<input type="radio" name="option" id="">Tooth <br><br>
+<input type="radio" name="option" id="">Gastric <br><br>
+<h3>Test</h3>
+<input type="radio" name="option" id="">Lung <br><br>
+<input type="radio" name="option" id="">Kidney <br><br>
+<input type="radio" name="option" id="">Eye <br><br>
+<input type="radio" name="option" id="">Diabetes <br><br>
+<input type="radio" name="option" id="">Hormone <br><br>
+
+</div>
+<button class="collapsible">Education</button>
+<div class="content">
+<h4>Academic</h4><br><br>
+<input type="radio" name="option" id="">SSC <br><br>
+<input type="radio" name="option" id="">HSC <br><br>
+<input type="radio" name="option" id="">Honors <br><br>
+<input type="radio" name="option" id=""><b>Masters (125000)</b> <br><br>
+<h4>Professional</h4><br><br>
+<input type="radio" name="option" id="">Diploma (BCC) <br><br>
+<input type="radio" name="option" id=""><b>IdB Bisew Project (Free)</b> <br><br>
+</div>
+<button class="collapsible">Security</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Sex</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Profession</button>
+<div class="content">
+<table>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>T</th>
+</tr>
+<tr>
+<td><b>Smartphone (45K)</b></td>
+<td>Teacher For Academy</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Board (190K)</td>
+<td>Teacher For Professional</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Light (6k)</td>
+<td>Government-Donation</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Tripod (5K)</td>
+<td>Trade License <br> Company License <br> Course Certificate</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Microphone (4K)</td>
+<td>Digital Marketing <br> Website <br> App</td>
+<td>?</td>
+</tr>
+</table>
+</div>
+<button class="collapsible">Travel</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Transport</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Love</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">People</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Entertainment & L.P / L.S</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<!-- <button class="collapsible">Hello14</button>
+<div class="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.maxHeight){
+content.style.maxHeight = null;
+} else {
+content.style.maxHeight = content.scrollHeight + "px";
+} 
+});
+}
+</script>
+
+</body>
+</html>
